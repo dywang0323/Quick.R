@@ -1,2 +1,2 @@
 # Quick.R
-this is the resptory to record the learning of R
+this is the respsitroy to record the learning of R
