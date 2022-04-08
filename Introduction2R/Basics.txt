@@ -1,0 +1,28 @@
+# help founction:
+1) help.start()   open the help home page
+2) help("foo") or ?foo    view help for function 'foo'
+3) help.search('foo') or ??foo    search local henp documentation with 'foo' as keyword
+4) example("foo")    example usage of function 'foo'
+5) RSiteSearch    search online documentation and mailing list archives by keyword with 'foo'
+6) apropos("foo", mode="function")    list all functions with 'foo' in their name
+7) data   list all available examples datasets contained in loaded package
+8) vignette()   list all 'vignette' documents available in the current installed package
+9) vignette("foo")    display the specific vignette document for topic 'foo'
+10) help(package="package_name")    output a short description of a package
+
+# Functions for managing R workspaces
+1) getwd()    show the current work directory
+2) setwd("mydirectory")   change the current working directory
+3) options()    show or set the current option
+4) history(#)   show # recently used commands (the default value is 25)
+5) save(objectlist, file="myfile")    save a specified object to a folder
+
+# use a new package (example)
+help.start()
+install.packages("vcd")
+help(package="vcd")
+library(vcd)
+help(Arthritis)
+Arthritis
+example(Arthritis)
+q()
