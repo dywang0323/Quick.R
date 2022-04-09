@@ -8,4 +8,6 @@ one-dimentional array for storing numeric, character or logical data ~ c()
 a two-dimentional array (numeric, character, logical data)
 general format:
 mymatrix <- matrix (vector, nrow=number_of_rows, ncol=number_of_colums, byrow=logical_value, dimname=list(char_vector_rownames, char_vector_colnames))
+X[i,] is ith row
+X[,j] is the jth column
 
