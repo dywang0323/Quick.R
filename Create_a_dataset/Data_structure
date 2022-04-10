@@ -11,3 +11,8 @@ mymatrix <- matrix (vector, nrow=number_of_rows, ncol=number_of_colums, byrow=lo
 X[i,] is ith row
 X[,j] is the jth column
 
+# array
+similar to matrix, but the dimensions can be greater than 2
+create a array: myarray <- array (vector, dementions, dimnames)
+vector contains the data in the array; dimensions is a numeric vector giving the maxium value of the subscripts of each dimension; dimnames is optimal, 
+a list of dimension name labels
