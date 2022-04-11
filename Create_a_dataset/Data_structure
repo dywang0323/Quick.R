@@ -19,4 +19,11 @@ a list of dimension name labels
 
 # dataframe
 function to create the dataframe: mydata <- data.frame (col1, col2, col3,.....)
-the schema of each coloumn of data must be unique
+* the schema of each coloumn of data must be unique
+* $ used to select a variable in a given dataframe
+
+1)attach(): add a data frame to R's search path
+  detach(): remove the dataframe from the search path
+2)with(): before the dataframe is attached, there is already an object with the same name in the environment, in this case, the original objective takes precedence.
+
+
