@@ -15,3 +15,24 @@ patientdata[c("diabetes", "status")]
 # generate a list between two variables
 
 table <- (patientdata$diabets, patientdata$status)
+
+# attach(), detach(), with()
+
+# original code:
+summary(mtcars$mpg)
+plot(mtcars$mpg, mtcars$disp)
+plot(mtcars$mpg, mtcars$wt)
+
+# using attach()
+attach(mycars)
+summary(mpg)
+plot(mpg, disp)
+plot(mpg, wt)
+detach(mtcars)
+
+#using with() (if there's already the object with the same name)
+with(mtcars, {
+    summary(mpg, disp, wt)
+    plot(mpg, disp)
+    plot(mpg, wt)
+  })
