@@ -30,3 +30,7 @@ function to create the dataframe: mydata <- data.frame (col1, col2, col3,.....)
 if it represents an ordinal variable, you need to specify "ordered = TRUE" for the function "factor()"
 for character vectors, factor level are created alphabetically default, you can use the "levels="option to override the default order
 
+# list: an ordered collection of some objective (or ingredients)
+list allow you to combine several(possible unrelated)objects under a single object name
+create a list: mylist <- list(object1, object2, object3,.....)
+
