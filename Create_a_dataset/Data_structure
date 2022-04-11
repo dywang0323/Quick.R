@@ -26,4 +26,7 @@ function to create the dataframe: mydata <- data.frame (col1, col2, col3,.....)
   detach(): remove the dataframe from the search path
 2)with(): before the dataframe is attached, there is already an object with the same name in the environment, in this case, the original objective takes precedence.
 
+# factor: catagorical (nominal) and ordinal categorical (ordinal) variables
+if it represents an ordinal variable, you need to specify "ordered = TRUE" for the function "factor()"
+for character vectors, factor level are created alphabetically default, you can use the "levels="option to override the default order
 
