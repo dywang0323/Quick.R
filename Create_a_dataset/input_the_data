@@ -1,1 +1,21 @@
+# using the keyboard
+edit()
 
+mydata <- data.frame(age=numeric(0),
+gender=character(0), wieght=numeric(0))
+mydata <- edit(mydata)
+
+# input data from delimented text files
+read.table
+
+mydataframe <- read.table (file, header = TRUE/FALSE,
+sep = ",", row.names = "name")
+
+# input data from EXCEL
+odbcConnectExcel()
+
+install.package("RODBC")
+library(RODBC)
+channel <- odbcConnectExcel("myfile.xls")
+mydataframe <- sqlFetch(channel, "mysheet")
+odbcClose(channel)
