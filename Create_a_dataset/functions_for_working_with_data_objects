@@ -1,1 +1,15 @@
+# functions:
 
+1)length(object): display the number of elements/components in the object
+2)dim(pbject): display the dimensions of the object
+3)str(object): display the structure of the object
+4)class(object): display the class or type of the object
+5)mode(object): display the mode of the object
+6)names(object): display the names of the components in the object
+7)c(object1, object2, object3.....): combine objects into a vector
+8)cbind(object1, object2, object3...): merge objects by column
+9)rbind(object1, object2, object3...): merge objects by row
+10)head(object): list the beganing of an object
+11)tail(object): list the last part of an object
+12)newobject <- edit(object): edit object and save as newobject
+13)fix(object): edit object directly
